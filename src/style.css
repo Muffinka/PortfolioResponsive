@@ -1,5 +1,12 @@
-body {
-    background-color: blue;
+:root {
+    --main-color: #0097CF;
+    --heading-font: 'Titan One', cursive;
+    --default-font: 'Montserrat', sans-serif;
+}
+
+
+.hero {
+    background-color: #EBEBEB;
     font-family: 'Montserrat', sans-serif;
 }
 h1 {

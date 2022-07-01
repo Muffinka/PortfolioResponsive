@@ -6,11 +6,28 @@
 
 body {
     background-color: #EBEBEB;
+    font-family: var(--default-font);
 
 }
 
 h1, h2, h3, h4, h5 {
     font-family: var(--heading-font);
+}
+
+.navbar-font {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: var(--default-font);
+    font-weight: 600;
+}
+
+.anaglyph {
+    text-shadow: red 0 0 rgba(255, 255, 255, 0.0), cyan 0 0 rgba(255, 255, 255, 0.0); 
+    transition: text-shadow 200ms;
+}
+
+.anaglyph:hover {
+    text-shadow: red -2px 0, cyan 2px 0;
 }
 
 .hero {
@@ -36,6 +53,10 @@ h1, h2, h3, h4, h5 {
   padding-bottom: 40px;
 }
 
+.side-size {
+ min-width: 150px;
+}
+
 .upwork-img {
   max-width: 40px;
 }
@@ -56,23 +77,9 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    max-width: 1200px;
 }
 
-.navbar-font {
-    font-size: 20px;
-    text-transform: uppercase;
-    font-family: var(--default-font);
-    font-weight: 600;
-}
-
-.anaglyph {
-    text-shadow: red 0 0 rgba(255, 255, 255, 0.0), cyan 0 0 rgba(255, 255, 255, 0.0); 
-    transition: text-shadow 200ms;
-}
-
-.anaglyph:hover {
-    text-shadow: red -2px 0, cyan 2px 0;
-}
 
 .carousel-width {
  max-width: 1200px;
@@ -104,7 +111,19 @@ background-size: cover;
 }
 
 .interests {
-      max-width: 300px;  
+      max-width: 300px;
+}
+
+.hello-text {
+   color: var(--main-color); 
+       font-weight: 700;  
+}
+
+.submit-buttons {
+    background-color: var(--main-color);
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .icons-footer {

@@ -9,7 +9,7 @@ body {
 
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     font-family: var(--heading-font);
 }
 
@@ -101,6 +101,10 @@ background-size: cover;
     margin-bottom: 40px;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.interests {
+      max-width: 300px;  
 }
 
 .icons-footer {

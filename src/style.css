@@ -12,6 +12,11 @@ body {
 
 h1, h2, h3, h4, h5 {
     font-family: var(--heading-font);
+    
+}
+
+li {
+    vertical-align: middle
 }
 
 .navbar-font {
@@ -24,6 +29,9 @@ h1, h2, h3, h4, h5 {
 .anaglyph {
     text-shadow: red 0 0 rgba(255, 255, 255, 0.0), cyan 0 0 rgba(255, 255, 255, 0.0); 
     transition: text-shadow 200ms;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .anaglyph:hover {
@@ -49,16 +57,24 @@ h1, h2, h3, h4, h5 {
 }
 
 .certificate-img {
-  max-width: 150px;
-  padding-bottom: 40px;
+    max-width: 150px;
+    padding-bottom: 40px;
 }
 
 .side-size {
- min-width: 150px;
+   flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.px-size {
+   max-width: 150px;
+   width: 150px;
+   height: 1px;
 }
 
 .upwork-img {
-  max-width: 40px;
+    max-width: 40px;
 }
 
 .non-rectangular {
@@ -82,7 +98,7 @@ h1, h2, h3, h4, h5 {
 
 
 .carousel-width {
- max-width: 1200px;
+    max-width: 1200px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -91,16 +107,40 @@ h1, h2, h3, h4, h5 {
     max-width: 560px;
     min-width: 200px;
     width: 100%;
-    margin: 20px;
-padding: 40px 0;
-background-image: url(/img/Services_1.jpg);
-background-size: cover;
+    margin: 20px;   
+    padding: 40px 0;
+    background-size: cover;
+    background-position: center;
+    text-shadow: black 0 0 15px;
+}
 
+.s1{
+    background-image: url(/img/Services_1.jpg);
+}
+
+.s2{
+
+    background-image: url(/img/Services_2.jpg);
+}
+
+.s3{
+    background-image: url(/img/Services_3.jpg);
+}
+
+.s4{
+    background-image: url(/img/Services_4.jpg);
+}
+
+
+hr {
+    border-top: 2px solid #ffffff; 
+    width: 50%;
 }
 
 .servise-list {
     list-style-type: none;
     padding-left: 0px;
+    margin-bottom: 0;
 }
 
 .service-main {
@@ -111,12 +151,12 @@ background-size: cover;
 }
 
 .interests {
-      max-width: 300px;
+    max-width: 300px;
 }
 
 .hello-text {
-   color: var(--main-color); 
-       font-weight: 700;  
+    color: var(--main-color); 
+    font-weight: 700;  
 }
 
 .submit-buttons {
@@ -127,7 +167,7 @@ background-size: cover;
 }
 
 .icons-footer {
-  font-size: 24px;
-  color: var(--main-color);
+    font-size: 24px;
+    color: var(--main-color);
     padding: 20px 0 20px 0;
 }

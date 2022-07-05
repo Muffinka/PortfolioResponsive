@@ -41,6 +41,7 @@ li {
 .hero {
     background-color: #EBEBEB;
     font-family: var(--default-font);
+    padding-top: 120px;
 }
 
 .hero-img {
@@ -78,7 +79,7 @@ li {
 }
 
 .non-rectangular {
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     clip-path:
         polygon(
         0% 0%,

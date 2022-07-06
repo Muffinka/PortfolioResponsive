@@ -48,6 +48,19 @@ li {
     max-width: 700px;
     min-width: 300px;
     width: 100%;
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-15px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
 }
 
 .hero-text {

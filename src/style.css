@@ -55,7 +55,7 @@ li {
 	0% {
 		transform: translatey(0px);
 	}
-	50% {
+	40% {
 		transform: translatey(-15px);
 	}
 	100% {
@@ -181,7 +181,7 @@ hr {
 }
 
 .icons-footer {
-    font-size: 24px;
+    font-size: 30px;
     color: var(--main-color);
     padding: 20px 0 20px 0;
 }

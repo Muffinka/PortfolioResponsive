@@ -185,3 +185,6 @@ hr {
     color: var(--main-color);
     padding: 20px 0 20px 0;
 }
+.icons-footer:visited {
+    color: var(--main-color); 
+}

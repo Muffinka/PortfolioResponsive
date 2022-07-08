@@ -75,6 +75,11 @@ li {
     padding-bottom: 40px;
 }
 
+.button-sert {
+border-width: 0px;
+background-color: #EBEBEB;
+}
+
 .side-size {
    flex-basis: 150px;
     flex-grow: 0;

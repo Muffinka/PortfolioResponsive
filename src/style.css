@@ -181,7 +181,7 @@ hr {
 .submit-buttons {
     background-color: var(--main-color);
     color: white;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
 }
 
